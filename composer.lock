@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "32b51102db14973d54567b07d67b20cd",
+    "content-hash": "bc1e1363d65e4d8bf14229b37f8b0a2c",
     "packages": [],
     "packages-dev": [
         {
@@ -530,24 +530,27 @@
         },
         {
             "name": "php-stubs/wordpress-stubs",
-            "version": "v5.8.0",
+            "version": "v6.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-stubs/wordpress-stubs.git",
-                "reference": "794e6eedfd5f2a334d581214c007fc398be588fe"
+                "reference": "8f696e429e375ef40a841ecf5ac686ff7437b4dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/794e6eedfd5f2a334d581214c007fc398be588fe",
-                "reference": "794e6eedfd5f2a334d581214c007fc398be588fe",
+                "url": "https://api.github.com/repos/php-stubs/wordpress-stubs/zipball/8f696e429e375ef40a841ecf5ac686ff7437b4dc",
+                "reference": "8f696e429e375ef40a841ecf5ac686ff7437b4dc",
                 "shasum": ""
             },
             "replace": {
                 "giacocorsiglia/wordpress-stubs": "*"
             },
             "require-dev": {
-                "giacocorsiglia/stubs-generator": "^0.5.0",
-                "php": "~7.1"
+                "nikic/php-parser": "< 4.12.0",
+                "php": "~7.3 || ~8.0",
+                "php-stubs/generator": "^0.8.1",
+                "phpdocumentor/reflection-docblock": "^5.3",
+                "phpstan/phpstan": "^1.2"
             },
             "suggest": {
                 "paragonie/sodium_compat": "Pure PHP implementation of libsodium",
@@ -568,9 +571,9 @@
             ],
             "support": {
                 "issues": "https://github.com/php-stubs/wordpress-stubs/issues",
-                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v5.8.0"
+                "source": "https://github.com/php-stubs/wordpress-stubs/tree/v6.0.2"
             },
-            "time": "2021-07-21T02:34:37+00:00"
+            "time": "2022-09-30T17:24:55+00:00"
         },
         {
             "name": "phpcompatibility/php-compatibility",
@@ -2493,5 +2496,5 @@
     "platform-overrides": {
         "php": "5.6"
     },
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
