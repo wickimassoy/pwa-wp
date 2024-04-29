@@ -38,7 +38,7 @@
     "lint-staged": "15.0.2",
     "npm-run-all": "4.1.5",
     "prettier": "2.8.7",
-    "workbox-cli": "7.0.0"
+    "workbox-cli": "7.1.0"
   },
   "scripts": {
     "build": "grunt build; grunt create-build-zip",
